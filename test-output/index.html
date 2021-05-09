@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\kulbi\AppData\Local\Temp\testng-eclipse--1678623726\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 2 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_31_createAccountWithoutselectOptionalCheckbox">tc_31_createAccountWithoutselectOptionalCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_32_createAccountWithoutselectOptionalCheckbox">tc_32_createAccountWithoutselectOptionalCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_10_validateErrorMessageWithFieldLeftInLastName">tc_10_validateErrorMessageWithFieldLeftInLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_11_validateErrorMessageWithAlphaNumInLastName">tc_11_validateErrorMessageWithAlphaNumInLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_12_validateErrorMessageWithAlphaNumSpecialCharInLastName">tc_12_validateErrorMessageWithAlphaNumSpecialCharInLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_13_validateErrorMessageWithFirstCharAsSpaceInLastName">tc_13_validateErrorMessageWithFirstCharAsSpaceInLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_14_checkValidPhnNumber">tc_14_checkValidPhnNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_15_checkInvalidPhnNumber">tc_15_checkInvalidPhnNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_16_checkInvalidPhnNumber11Digit">tc_16_checkInvalidPhnNumber11Digit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_17_checkInvalidPhnNumberStartWithBlank">tc_17_checkInvalidPhnNumberStartWithBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_18_checkValidEmail">tc_18_checkValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_19_checkInvalidEmail">tc_19_checkInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_1validateCreateAccountPage">tc_1validateCreateAccountPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_20_checkInvalidEmailWithStartingSpace">tc_20_checkInvalidEmailWithStartingSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_21_checkInvalidEmailWithBlank">tc_21_checkInvalidEmailWithBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_22_checkValidPassword">tc_22_checkValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_25_checkValidPasswordWithSpecialCharNumber">tc_25_checkValidPasswordWithSpecialCharNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_26_checkValidPasswordWithSpecialChar">tc_26_checkValidPasswordWithSpecialChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_27_checkValidPasswordWithChar">tc_27_checkValidPasswordWithChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_2validateValidDataFirstName">tc_2validateValidDataFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_30_checkValidPasswordWithChar">tc_30_checkValidPasswordWithChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_33_createAccountWithoutselectOptionalCheckbox">tc_33_createAccountWithoutselectOptionalCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_3_validateErrorMessageWithLessThen2Char">tc_3_validateErrorMessageWithLessThen2Char</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_4_validateErrorMessageWithFieldLEft">tc_4_validateErrorMessageWithFieldLEft</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_5_validateErrorMessageWithAlphaNum">tc_5_validateErrorMessageWithAlphaNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_6_validateErrorMessageWithAlphaNumSpecialChar">tc_6_validateErrorMessageWithAlphaNumSpecialChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_7_validateErrorMessageWithFirstCharAsSpace">tc_7_validateErrorMessageWithFirstCharAsSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_8_validateValidDataLastName">tc_8_validateValidDataLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="tc_9_validateErrorMessageWithLessThen2CharInLastName">tc_9_validateErrorMessageWithLessThen2CharInLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_31_createAccountWithoutselectOptionalCheckbox">
+                  </a> <!-- tc_31_createAccountWithoutselectOptionalCheckbox -->
+                  <span class="method-name">tc_31_createAccountWithoutselectOptionalCheckbox</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at TestCases.CreateAccountTest.tc_31_createAccountWithoutselectOptionalCheckbox(CreateAccountTest.java:316)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC_31 To verify user is able to create account without select the check box about "Email me about Flyers, rollback & clearance selection"  .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_32_createAccountWithoutselectOptionalCheckbox">
+                  </a> <!-- tc_32_createAccountWithoutselectOptionalCheckbox -->
+                  <span class="method-name">tc_32_createAccountWithoutselectOptionalCheckbox</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at TestCases.CreateAccountTest.tc_32_createAccountWithoutselectOptionalCheckbox(CreateAccountTest.java:338)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC_32 Checking functionality of Terms and conditions check box by clicking on it.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_10_validateErrorMessageWithFieldLeftInLastName">
+                  </a> <!-- tc_10_validateErrorMessageWithFieldLeftInLastName -->
+                  <span class="method-name">tc_10_validateErrorMessageWithFieldLeftInLastName</span>
+                  <em>
+(TC_10 This test case is to verify the Error message if Last name field left black.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_11_validateErrorMessageWithAlphaNumInLastName">
+                  </a> <!-- tc_11_validateErrorMessageWithAlphaNumInLastName -->
+                  <span class="method-name">tc_11_validateErrorMessageWithAlphaNumInLastName</span>
+                  <em>
+(TC_11 This test case is to verify the Error message if user enter Last name field  alpha Numeric characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_12_validateErrorMessageWithAlphaNumSpecialCharInLastName">
+                  </a> <!-- tc_12_validateErrorMessageWithAlphaNumSpecialCharInLastName -->
+                  <span class="method-name">tc_12_validateErrorMessageWithAlphaNumSpecialCharInLastName</span>
+                  <em>
+(TC_12 This test case is to verify the Error message if user enter Last name field alpha Numeric Special characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_13_validateErrorMessageWithFirstCharAsSpaceInLastName">
+                  </a> <!-- tc_13_validateErrorMessageWithFirstCharAsSpaceInLastName -->
+                  <span class="method-name">tc_13_validateErrorMessageWithFirstCharAsSpaceInLastName</span>
+                  <em>
+(TC_13 This test case is to verify the Error message if user enter Last name field starting with a space.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_14_checkValidPhnNumber">
+                  </a> <!-- tc_14_checkValidPhnNumber -->
+                  <span class="method-name">tc_14_checkValidPhnNumber</span>
+                  <em>
+(TC_14 Checking functionality of phone number field with valid data .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_15_checkInvalidPhnNumber">
+                  </a> <!-- tc_15_checkInvalidPhnNumber -->
+                  <span class="method-name">tc_15_checkInvalidPhnNumber</span>
+                  <em>
+(TC_15 Checking functionality of phone number field with invalid data less than 10 digits .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_16_checkInvalidPhnNumber11Digit">
+                  </a> <!-- tc_16_checkInvalidPhnNumber11Digit -->
+                  <span class="method-name">tc_16_checkInvalidPhnNumber11Digit</span>
+                  <em>
+(TC_16 Checking functionality of phone number field with invalid data More than 10 digits .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_17_checkInvalidPhnNumberStartWithBlank">
+                  </a> <!-- tc_17_checkInvalidPhnNumberStartWithBlank -->
+                  <span class="method-name">tc_17_checkInvalidPhnNumberStartWithBlank</span>
+                  <em>
+(TC_17 Checking functionality of phone number field with invalid data starting with space .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_18_checkValidEmail">
+                  </a> <!-- tc_18_checkValidEmail -->
+                  <span class="method-name">tc_18_checkValidEmail</span>
+                  <em>
+(TC_18 Checking functionality of email field with valid data.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_19_checkInvalidEmail">
+                  </a> <!-- tc_19_checkInvalidEmail -->
+                  <span class="method-name">tc_19_checkInvalidEmail</span>
+                  <em>
+(TC_19 Checking functionality of email field with invalid data.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_1validateCreateAccountPage">
+                  </a> <!-- tc_1validateCreateAccountPage -->
+                  <span class="method-name">tc_1validateCreateAccountPage</span>
+                  <em>
+(TC_1 This test case is to Verify If user landed on create account page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_20_checkInvalidEmailWithStartingSpace">
+                  </a> <!-- tc_20_checkInvalidEmailWithStartingSpace -->
+                  <span class="method-name">tc_20_checkInvalidEmailWithStartingSpace</span>
+                  <em>
+(TC_20 Checking functionality of email field with data starting with a space.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_21_checkInvalidEmailWithBlank">
+                  </a> <!-- tc_21_checkInvalidEmailWithBlank -->
+                  <span class="method-name">tc_21_checkInvalidEmailWithBlank</span>
+                  <em>
+(TC_21 Checking functionality of blank email field.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_22_checkValidPassword">
+                  </a> <!-- tc_22_checkValidPassword -->
+                  <span class="method-name">tc_22_checkValidPassword</span>
+                  <em>
+(TC_23 Checking functionality of password field with no data.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_25_checkValidPasswordWithSpecialCharNumber">
+                  </a> <!-- tc_25_checkValidPasswordWithSpecialCharNumber -->
+                  <span class="method-name">tc_25_checkValidPasswordWithSpecialCharNumber</span>
+                  <em>
+(TC_25 Checking functionality of password field for password strenght with combination of charanters, numbers and special characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_26_checkValidPasswordWithSpecialChar">
+                  </a> <!-- tc_26_checkValidPasswordWithSpecialChar -->
+                  <span class="method-name">tc_26_checkValidPasswordWithSpecialChar</span>
+                  <em>
+(TC_26 Checking functionality of password field for password strenght with combination of charanters and special characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_27_checkValidPasswordWithChar">
+                  </a> <!-- tc_27_checkValidPasswordWithChar -->
+                  <span class="method-name">tc_27_checkValidPasswordWithChar</span>
+                  <em>
+(TC_27 Checking functionality of password field for password strenght with just character input.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_2validateValidDataFirstName">
+                  </a> <!-- tc_2validateValidDataFirstName -->
+                  <span class="method-name">tc_2validateValidDataFirstName</span>
+                  <em>
+(TC_2 To Check the functionality When user enter First name field with valid data No error occur)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_30_checkValidPasswordWithChar">
+                  </a> <!-- tc_30_checkValidPasswordWithChar -->
+                  <span class="method-name">tc_30_checkValidPasswordWithChar</span>
+                  <em>
+(TC_30 Checking functionality of password with less than 6 characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_33_createAccountWithoutselectOptionalCheckbox">
+                  </a> <!-- tc_33_createAccountWithoutselectOptionalCheckbox -->
+                  <span class="method-name">tc_33_createAccountWithoutselectOptionalCheckbox</span>
+                  <em>
+(TC_33 Checking functionality of Terms and conditions check box by not clicking on it.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_3_validateErrorMessageWithLessThen2Char">
+                  </a> <!-- tc_3_validateErrorMessageWithLessThen2Char -->
+                  <span class="method-name">tc_3_validateErrorMessageWithLessThen2Char</span>
+                  <em>
+(TC_3 This test case is to verify the Error message if first name is of less then 2 char)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_4_validateErrorMessageWithFieldLEft">
+                  </a> <!-- tc_4_validateErrorMessageWithFieldLEft -->
+                  <span class="method-name">tc_4_validateErrorMessageWithFieldLEft</span>
+                  <em>
+(TC_4 This test case is to verify the Error message if First name field left black.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_5_validateErrorMessageWithAlphaNum">
+                  </a> <!-- tc_5_validateErrorMessageWithAlphaNum -->
+                  <span class="method-name">tc_5_validateErrorMessageWithAlphaNum</span>
+                  <em>
+(TC_5 This test case is to verify the Error message if First name field with alpha Numeric characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_6_validateErrorMessageWithAlphaNumSpecialChar">
+                  </a> <!-- tc_6_validateErrorMessageWithAlphaNumSpecialChar -->
+                  <span class="method-name">tc_6_validateErrorMessageWithAlphaNumSpecialChar</span>
+                  <em>
+(TC_6 This test case is to verify the Error message if First name field with alpha Numeric Special characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_7_validateErrorMessageWithFirstCharAsSpace">
+                  </a> <!-- tc_7_validateErrorMessageWithFirstCharAsSpace -->
+                  <span class="method-name">tc_7_validateErrorMessageWithFirstCharAsSpace</span>
+                  <em>
+(TC_7 This test case is to verify the Error message if  First name field starting with a space.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_8_validateValidDataLastName">
+                  </a> <!-- tc_8_validateValidDataLastName -->
+                  <span class="method-name">tc_8_validateValidDataLastName</span>
+                  <em>
+(TC_8 To Check the functionality When user enter Last name field with valid data ,No error occur)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_9_validateErrorMessageWithLessThen2CharInLastName">
+                  </a> <!-- tc_9_validateErrorMessageWithLessThen2CharInLastName -->
+                  <span class="method-name">tc_9_validateErrorMessageWithLessThen2CharInLastName</span>
+                  <em>
+(TC_9 This test case is to verify the Error message if user enter Last name is of less then 2 char)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kulbi\AppData\Local\Temp\testng-eclipse--1678623726\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.CreateAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc_7_validateErrorMessageWithFirstCharAsSpace')
+data.setCell(0, 2, 'TestCases.CreateAccountTest')
+data.setCell(0, 3, 30859);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc_20_checkInvalidEmailWithStartingSpace')
+data.setCell(1, 2, 'TestCases.CreateAccountTest')
+data.setCell(1, 3, 30762);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc_8_validateValidDataLastName')
+data.setCell(2, 2, 'TestCases.CreateAccountTest')
+data.setCell(2, 3, 30532);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc_14_checkValidPhnNumber')
+data.setCell(3, 2, 'TestCases.CreateAccountTest')
+data.setCell(3, 3, 30515);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc_18_checkValidEmail')
+data.setCell(4, 2, 'TestCases.CreateAccountTest')
+data.setCell(4, 3, 30509);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc_13_validateErrorMessageWithFirstCharAsSpaceInLastName')
+data.setCell(5, 2, 'TestCases.CreateAccountTest')
+data.setCell(5, 3, 30386);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc_2validateValidDataFirstName')
+data.setCell(6, 2, 'TestCases.CreateAccountTest')
+data.setCell(6, 3, 30369);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc_31_createAccountWithoutselectOptionalCheckbox')
+data.setCell(7, 2, 'TestCases.CreateAccountTest')
+data.setCell(7, 3, 19426);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc_32_createAccountWithoutselectOptionalCheckbox')
+data.setCell(8, 2, 'TestCases.CreateAccountTest')
+data.setCell(8, 3, 19337);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc_33_createAccountWithoutselectOptionalCheckbox')
+data.setCell(9, 2, 'TestCases.CreateAccountTest')
+data.setCell(9, 3, 5379);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc_11_validateErrorMessageWithAlphaNumInLastName')
+data.setCell(10, 2, 'TestCases.CreateAccountTest')
+data.setCell(10, 3, 734);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc_17_checkInvalidPhnNumberStartWithBlank')
+data.setCell(11, 2, 'TestCases.CreateAccountTest')
+data.setCell(11, 3, 732);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc_6_validateErrorMessageWithAlphaNumSpecialChar')
+data.setCell(12, 2, 'TestCases.CreateAccountTest')
+data.setCell(12, 3, 701);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc_19_checkInvalidEmail')
+data.setCell(13, 2, 'TestCases.CreateAccountTest')
+data.setCell(13, 3, 677);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc_22_checkValidPassword')
+data.setCell(14, 2, 'TestCases.CreateAccountTest')
+data.setCell(14, 3, 626);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc_12_validateErrorMessageWithAlphaNumSpecialCharInLastName')
+data.setCell(15, 2, 'TestCases.CreateAccountTest')
+data.setCell(15, 3, 620);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc_16_checkInvalidPhnNumber11Digit')
+data.setCell(16, 2, 'TestCases.CreateAccountTest')
+data.setCell(16, 3, 597);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc_15_checkInvalidPhnNumber')
+data.setCell(17, 2, 'TestCases.CreateAccountTest')
+data.setCell(17, 3, 589);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc_3_validateErrorMessageWithLessThen2Char')
+data.setCell(18, 2, 'TestCases.CreateAccountTest')
+data.setCell(18, 3, 587);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc_26_checkValidPasswordWithSpecialChar')
+data.setCell(19, 2, 'TestCases.CreateAccountTest')
+data.setCell(19, 3, 562);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc_9_validateErrorMessageWithLessThen2CharInLastName')
+data.setCell(20, 2, 'TestCases.CreateAccountTest')
+data.setCell(20, 3, 549);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc_27_checkValidPasswordWithChar')
+data.setCell(21, 2, 'TestCases.CreateAccountTest')
+data.setCell(21, 3, 545);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tc_25_checkValidPasswordWithSpecialCharNumber')
+data.setCell(22, 2, 'TestCases.CreateAccountTest')
+data.setCell(22, 3, 539);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tc_10_validateErrorMessageWithFieldLeftInLastName')
+data.setCell(23, 2, 'TestCases.CreateAccountTest')
+data.setCell(23, 3, 531);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'tc_5_validateErrorMessageWithAlphaNum')
+data.setCell(24, 2, 'TestCases.CreateAccountTest')
+data.setCell(24, 3, 520);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'tc_4_validateErrorMessageWithFieldLEft')
+data.setCell(25, 2, 'TestCases.CreateAccountTest')
+data.setCell(25, 3, 464);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'tc_30_checkValidPasswordWithChar')
+data.setCell(26, 2, 'TestCases.CreateAccountTest')
+data.setCell(26, 3, 461);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'tc_21_checkInvalidEmailWithBlank')
+data.setCell(27, 2, 'TestCases.CreateAccountTest')
+data.setCell(27, 3, 457);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'tc_1validateCreateAccountPage')
+data.setCell(28, 2, 'TestCases.CreateAccountTest')
+data.setCell(28, 3, 196);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_10_validateErrorMessageWithFieldLeftInLastName</span>
+                <span class="method-start">3602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">5257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_11_validateErrorMessageWithAlphaNumInLastName</span>
+                <span class="method-start">7495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">8936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_12_validateErrorMessageWithAlphaNumSpecialCharInLastName</span>
+                <span class="method-start">11284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">12622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_13_validateErrorMessageWithFirstCharAsSpaceInLastName</span>
+                <span class="method-start">15691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">46739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_14_checkValidPhnNumber</span>
+                <span class="method-start">49254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">80420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_15_checkInvalidPhnNumber</span>
+                <span class="method-start">82539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">83823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_16_checkInvalidPhnNumber11Digit</span>
+                <span class="method-start">85865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">87142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_17_checkInvalidPhnNumberStartWithBlank</span>
+                <span class="method-start">89215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">90633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_18_checkValidEmail</span>
+                <span class="method-start">93823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">124988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_19_checkInvalidEmail</span>
+                <span class="method-start">127284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">128631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_1validateCreateAccountPage</span>
+                <span class="method-start">130731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">130932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">131626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_20_checkInvalidEmailWithStartingSpace</span>
+                <span class="method-start">133928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">165350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_21_checkInvalidEmailWithBlank</span>
+                <span class="method-start">167491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">168656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_22_checkValidPassword</span>
+                <span class="method-start">170808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">171436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">172098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_25_checkValidPasswordWithSpecialCharNumber</span>
+                <span class="method-start">174077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">174618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">175303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_26_checkValidPasswordWithSpecialChar</span>
+                <span class="method-start">177488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">178054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">178734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_27_checkValidPasswordWithChar</span>
+                <span class="method-start">180843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">181390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">182071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_2validateValidDataFirstName</span>
+                <span class="method-start">184353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">215380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_30_checkValidPasswordWithChar</span>
+                <span class="method-start">217538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">218000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">218682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_31_createAccountWithoutselectOptionalCheckbox</span>
+                <span class="method-start">220719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">240149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">240841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_32_createAccountWithoutselectOptionalCheckbox</span>
+                <span class="method-start">243040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">262380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">263066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_33_createAccountWithoutselectOptionalCheckbox</span>
+                <span class="method-start">265468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">270848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">271519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_3_validateErrorMessageWithLessThen2Char</span>
+                <span class="method-start">273704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">274293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">274968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_4_validateErrorMessageWithFieldLEft</span>
+                <span class="method-start">277280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">277746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">278461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_5_validateErrorMessageWithAlphaNum</span>
+                <span class="method-start">280853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">281375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">282041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_6_validateErrorMessageWithAlphaNumSpecialChar</span>
+                <span class="method-start">284453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">285157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">285839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_7_validateErrorMessageWithFirstCharAsSpace</span>
+                <span class="method-start">288087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">318947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">319609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_8_validateValidDataLastName</span>
+                <span class="method-start">321866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">352399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">353051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_9_validateErrorMessageWithLessThen2CharInLastName</span>
+                <span class="method-start">355261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">355813 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

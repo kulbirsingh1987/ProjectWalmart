@@ -92,7 +92,7 @@ public class CreateAccountTest extends BaseClass {
 		String fname =e.returnExcelData(6, 0);
 		cao.enterFirstName(fname);
 		cao.enterlastName("");
-		BrowserBasics.takeScreenshotAtEndOfTest("TC_6");
+		BrowserBasics.takeScreenshotAtEndOfTest("TC_7");
 		Assert.assertFalse(cao.validateFnameErrorMsg());
 	}
 	
@@ -173,7 +173,7 @@ public class CreateAccountTest extends BaseClass {
 		String phnNum =e.returnExcelData(2, 2);
 		cao.enterPhoneNumber(phnNum);
 		cao.enterFirstName("");
-		BrowserBasics.takeScreenshotAtEndOfTest("TC_14");
+		BrowserBasics.takeScreenshotAtEndOfTest("TC_15");
 		Assert.assertTrue(cao.validatePhnNumErrorMsg());
 	}
 	@Test(description = "TC_16 Checking functionality of phone number field with invalid data More than 10 digits .")
@@ -182,7 +182,7 @@ public class CreateAccountTest extends BaseClass {
 		String phnNum =e.returnExcelData(3, 2);
 		cao.enterPhoneNumber(phnNum);
 		cao.enterFirstName("");
-		BrowserBasics.takeScreenshotAtEndOfTest("TC_14");
+		BrowserBasics.takeScreenshotAtEndOfTest("TC_16");
 		Assert.assertTrue(cao.validatePhnNumErrorMsg());
 	}
 	
@@ -192,7 +192,7 @@ public class CreateAccountTest extends BaseClass {
 		String phnNum =e.returnExcelData(4, 2);
 		cao.enterPhoneNumber(phnNum);
 		cao.enterFirstName("");
-		BrowserBasics.takeScreenshotAtEndOfTest("TC_14");
+		BrowserBasics.takeScreenshotAtEndOfTest("TC_17");
 		Assert.assertTrue(cao.validatePhnNumErrorMsg());
 	}
 	
@@ -243,7 +243,7 @@ public class CreateAccountTest extends BaseClass {
 	
 	
 	@Test(description = "TC_23 Checking functionality of password field with no data.")
-	public void tc_22_checkValidPassword() {
+	public void tc_23_checkValidPassword() {
 
 		String pwd =e.returnExcelData(1, 4);
 		cao.enterPassword(pwd);

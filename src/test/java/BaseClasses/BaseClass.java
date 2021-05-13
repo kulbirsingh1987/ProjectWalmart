@@ -9,6 +9,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import Utilities.TestUtil;
+
 public class BaseClass {
 
 	public static WebDriver driver;
@@ -40,12 +42,17 @@ public class BaseClass {
 			System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
 			driver= new ChromeDriver();
-		}	
+		}else if (bName.equalsIgnoreCase("firefox")) {
+			System.setProperty("webdriver.gecko.driver",
+					System.getProperty("user.dir") + "\\src\\main\\resources\\geckodriver.exe");
+			driver= new ChromeDriver();
+		}
 		
 		driver.manage().window().maximize();
-//		driver.manage().deleteAllCookies();
-//		driver.manage().timeouts().pageLoadTimeout(50,TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
+
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.page_TimeOut,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.implicit_wait,TimeUnit.SECONDS);
 		
 	}
 
